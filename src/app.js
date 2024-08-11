@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 
 const corsOptions = {
-  origin: ["https://futsal-frontend-mq4hu9kt7-amritkandel49s-projects.vercel.app/", "http://localhost:5173/", "http://localhost:8000/"],
+  origin: ["https://frontend-alpha-ruby-20.vercel.app//", "http://localhost:5173/", "http://localhost:8000/"],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type, Authorization",
   credentials: true,
